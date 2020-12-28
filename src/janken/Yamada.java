@@ -17,8 +17,8 @@ public class Yamada extends Player {
      *
      * @return ジャンケンの手
      * */
-    public int showHand() {
-		// 必ずグーを出す
-		return PAPER;
-    }
+//    public int showHand() {
+//		// 必ずグーを出す
+//		return PAPER;
+//    }
 }
