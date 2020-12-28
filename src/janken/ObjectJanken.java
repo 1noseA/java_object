@@ -12,7 +12,8 @@ public class ObjectJanken {
 		Player murata = new Murata("村田さん");
 
 		// 村田さんに渡す戦略クラスを生成する
-		Tactics murataTactics = new RandomTactics();
+		// Tactics murataTactics = new StoneOnlyTactics();
+		Tactics murataTactics = new AskTactics();
 
 		// 村田さんに戦略クラスを渡す
 		murata.setTactics(murataTactics);
