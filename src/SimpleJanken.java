@@ -17,10 +17,10 @@ public class SimpleJanken {
 		int player1Hand = 0;
 		// プレイヤー2が出す手
 		int player2Hand = 0;
-		
+
 		// ジャンケンの手を決めるのに使用する乱数
 		double randomNum = 0;
-		
+
 		// ①プログラムが開始したことを表示する
 		// プログラム開始メッセージを表示する
 	    System.out.println("【ジャンケン開始】\n");
@@ -31,11 +31,11 @@ public class SimpleJanken {
 		for (int cnt = 0; cnt < 3; cnt++) {
 			// 何回戦目かを表示する
 			System.out.println("【" + (cnt + 1) + "回戦目】");
-			
+
 			// ②プレイヤー１が何を出すか決める
 			// 0以上3未満の少数として乱数を得る
 			randomNum = Math.random() * 3;
-			
+
 			if (randomNum < 1) {
 				// randomNumが0.0以上1.0未満の場合グー
 				player1Hand = STONE;
