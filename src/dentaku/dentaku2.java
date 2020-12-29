@@ -14,6 +14,7 @@ public class dentaku2 {
 
 			double total = 0;
 
+			// 数字が4つのときエラーメッセージが出てしまう
 			if (arr.length < 3 || ((arr.length != 3) && (arr.length % 3 != 2))) {
 				System.out.println("数値 演算子 数値 演算子 数値 …の順に最低3つの引数を指定してください");
 				continue;
