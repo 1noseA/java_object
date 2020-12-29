@@ -66,7 +66,7 @@ public class Player {
 	public Hand showHand() {
 		// もしこの時点で手札が残り1枚ならば上がりとなるので宣言する
 		if (myHand_.getNumberOfCards() == 1) {
-			master_.decleareWin(this);
+			master_.declareWin(this);
 		}
 
 		// 見せる前にシャッフルする
