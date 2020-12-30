@@ -100,7 +100,7 @@ public class Player {
 		// 同じカードの組み合わせが存在した場合
 		if (sameCards != null) {
 			// テーブルへカードを捨てる
-			System.out.println(this + "：");
+			System.out.print(this + "：");
 			table_.disposeCard(sameCards);
 		}
 	}
