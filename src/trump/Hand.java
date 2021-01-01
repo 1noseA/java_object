@@ -14,7 +14,7 @@ public class Hand {
 	 *
 	 * @param card 加えるカード
 	 */
-	public void addacard(Card card) {
+	public void addCard(Card card) {
 		// カードをリストの最後に追加する
 		hand_.add(card);
 	}
