@@ -1,7 +1,5 @@
 package trump;
 
-import babanuki.Master;
-
 /**
  * プレイヤーを表すクラス
  */
